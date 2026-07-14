@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Pixel To AI</title>
+  <defs>
+    <linearGradient id="ptaGrad" x1="4" y1="8" x2="60" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C0C0C0"/>
+      <stop offset="55%" stop-color="#F5D67A"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="61" height="61" rx="16" fill="#050505"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="16" fill="none" stroke="url(#ptaGrad)" stroke-opacity="0.4" stroke-width="1.5"/>
+
+  <!-- Pixel grid (top-left): the raw, discrete "pixel" origin -->
+  <g fill="url(#ptaGrad)">
+    <rect x="12" y="12" width="8" height="8" rx="1.5"/>
+    <rect x="23" y="12" width="8" height="8" rx="1.5" opacity="0.85"/>
+    <rect x="12" y="23" width="8" height="8" rx="1.5" opacity="0.85"/>
+    <rect x="23" y="23" width="8" height="8" rx="1.5" opacity="0.65"/>
+  </g>
+
+  <!-- Connective lines: the pixels resolving into a network -->
+  <g stroke="url(#ptaGrad)" stroke-width="1.6" stroke-linecap="round" opacity="0.9">
+    <line x1="27" y1="27" x2="40" y2="40"/>
+    <line x1="40" y1="40" x2="50" y2="34"/>
+    <line x1="40" y1="40" x2="46" y2="50"/>
+    <line x1="50" y1="34" x2="46" y2="50"/>
+  </g>
+
+  <!-- Nodes (bottom-right): the resolved "intelligence" -->
+  <g fill="url(#ptaGrad)">
+    <circle cx="40" cy="40" r="3.4"/>
+    <circle cx="50" cy="34" r="2.6"/>
+    <circle cx="46" cy="50" r="2.6"/>
+  </g>
+</svg>

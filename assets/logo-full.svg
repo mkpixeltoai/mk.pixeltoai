@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 72" width="340" height="72" role="img" aria-labelledby="logoFullTitle">
+  <title id="logoFullTitle">Pixel To AI — From Pixels To Intelligence</title>
+  <defs>
+    <linearGradient id="ptaGradFull" x1="4" y1="8" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C0C0C0"/>
+      <stop offset="55%" stop-color="#F5D67A"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon mark -->
+  <g transform="translate(4,4)">
+    <rect x="1.5" y="1.5" width="61" height="61" rx="16" fill="#050505"/>
+    <rect x="1.5" y="1.5" width="61" height="61" rx="16" fill="none" stroke="url(#ptaGradFull)" stroke-opacity="0.4" stroke-width="1.5"/>
+    <g fill="url(#ptaGradFull)">
+      <rect x="12" y="12" width="8" height="8" rx="1.5"/>
+      <rect x="23" y="12" width="8" height="8" rx="1.5" opacity="0.85"/>
+      <rect x="12" y="23" width="8" height="8" rx="1.5" opacity="0.85"/>
+      <rect x="23" y="23" width="8" height="8" rx="1.5" opacity="0.65"/>
+    </g>
+    <g stroke="url(#ptaGradFull)" stroke-width="1.6" stroke-linecap="round" opacity="0.9">
+      <line x1="27" y1="27" x2="40" y2="40"/>
+      <line x1="40" y1="40" x2="50" y2="34"/>
+      <line x1="40" y1="40" x2="46" y2="50"/>
+      <line x1="50" y1="34" x2="46" y2="50"/>
+    </g>
+    <g fill="url(#ptaGradFull)">
+      <circle cx="40" cy="40" r="3.4"/>
+      <circle cx="50" cy="34" r="2.6"/>
+      <circle cx="46" cy="50" r="2.6"/>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="84" y="38" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">
+    Pixel <tspan fill="url(#ptaGradFull)" font-weight="600">To</tspan> AI
+  </text>
+  <text x="84" y="56" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" letter-spacing="1" fill="#B8B8B8">
+    FROM PIXELS TO INTELLIGENCE
+  </text>
+</svg>
